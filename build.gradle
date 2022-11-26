@@ -37,7 +37,7 @@ tasks.named('test') {
 jar {  
     manifest {  
         attributes(  
-                'Main-Class': 'CompanyApplication'  
+                'Main-Class': 'com.example.company.CompanyApplication'  
         )  
     }  
 }  
