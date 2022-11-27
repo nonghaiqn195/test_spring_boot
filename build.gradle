@@ -35,9 +35,9 @@ tasks.named('test') {
 }
 
 jar {  
-    manifest {  
-        attributes(  
-                'Main-Class': 'com.example.company.CompanyApplication'  
-        )  
-    }  
+    archiveClassifier.set('')
 }  
+
+bootJar {
+    archiveClassifier.set('boot')
+}
